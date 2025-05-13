@@ -33,7 +33,7 @@ body{
   font-size: 24px;
 }
 
-.cabecalho-imagem {
+.cabecalho-imagem{
   width: 120px;
   height: 80px;
   border-radius: 30%;
@@ -91,7 +91,7 @@ body{
 .rodape{
   background-color: #424e61;
   text-align: center;
-  color: white;
+  color:white;
   font-size: 25px;
 }
 
@@ -101,7 +101,7 @@ body{
 }
 
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .cabecalho{
     flex-direction: column;
     text-align: center;
@@ -115,12 +115,12 @@ body{
   .escola{
     flex-direction: column;
     text-align: center;
-    padding: 16px 0;
+    padding: 16px;
   }
 
-  .escola-imagem{
+  .escola-imagem {
     width: 80%;
-    margin-top: 16px 0;
+    margin-top: 16px;
   }
 
   .escola-conteudo{
