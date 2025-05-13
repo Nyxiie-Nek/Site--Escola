@@ -3,6 +3,21 @@
   padding: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap");
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover{
+  color: crimson;
+}
+
+body{
+  font-family: "comic relief", sans-serif;
+}
+
 .cabecalho{
   background-color: #424e61; 
   color: white;
@@ -18,6 +33,12 @@
   font-size: 24px;
 }
 
+.cabecalho-imagem {
+  width: 120px;
+  height: 80px;
+  border-radius: 30%;
+}
+
 .escola-imagem{
   width: 30%;
 }
@@ -31,7 +52,7 @@
   padding: 24px 0;
 }
 
-.escola-div-conteudo{
+.escola-conteudo{
   width: 35%;
 }
 
@@ -58,38 +79,26 @@
   padding: 24px 0;
 }
 
+.estudantes-imagem {
+  width: 100px;
+}
 
+.estudantes-icone {
+  width: 24px;
+  padding: 4px 8px;
+}
 
+.rodape{
+  background-color: #424e61;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.rodape-imagem{
+  height: 60px;
+  padding: 12px 0;
+}
 
 
 @media (max-width:768px) {
